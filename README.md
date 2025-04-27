@@ -2,25 +2,22 @@
 
 This project provides a **common API endpoint** built with **Flask** that allows users to create AI agents either on **VAPI** or **Retell AI** platforms by sending a single standardized request.
 
----
 
-## 🛠️ Files
+## Files
 
 - `app.py` — Flask application providing `/create_agent` endpoint.
 - `requirements.txt` — Python dependencies.
 - `.env` — Environment variables for API keys.
 
----
 
-## 🚀 How It Works
+## How It Works
 
 - Send a POST request to `/create_agent` with JSON body.
 - The `provider` parameter decides whether the agent is created on **VAPI** or **Retell**.
 - Other parameters like `name`, `model`, `temperature`, and `voice_id` are standardized.
 
----
 
-## 📄 Setup Instructions
+## Setup Instructions
 
 1. **Clone the repository**:
     ```bash
@@ -52,9 +49,8 @@ This project provides a **common API endpoint** built with **Flask** that allows
     ```
     Server will start at: [http://localhost:5000](http://localhost:5000)
 
----
 
-## 📬 API Usage
+## API Usage
 
 ### Endpoint
 
@@ -74,7 +70,6 @@ This project provides a **common API endpoint** built with **Flask** that allows
 | system_prompt     | string  | No (Retell only) | Custom system prompt                    |
 | avatar_url        | string  | No (Retell only) | URL for agent avatar image              |
 
----
 
 ### Example Request (cURL)
 
