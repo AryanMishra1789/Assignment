@@ -1,4 +1,4 @@
-# AI Agent Creation API Wrapper
+# Assignment
 
 This project provides a **common API endpoint** built with **Flask** that allows users to create AI agents either on **VAPI** or **Retell AI** platforms by sending a single standardized request.
 
